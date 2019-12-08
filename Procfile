@@ -1,1 +1,1 @@
-web gunicorn mywebsite:myflask
+web guicorn mywebsite:myflask
