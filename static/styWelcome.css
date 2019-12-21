@@ -1,22 +1,16 @@
 body{
     padding: 1em;
-    background: lightgray;
-    color:#777;
+    color: #777;
     text-align: center;
     font-family: "Gill sans", sans-serif;
     width: 80%;
     margin: 0 auto;
   }
-  h1{
-    margin: 1em 0;
-    border-bottom: 1px dashed;
-    padding-bottom: 1em;
-    font-weight: lighter;
-  }
-  p{
-    font-style: normal;
-  }
   
+  header{
+    font-family: "Gill sans", sans-serif;
+  }
+
   header p a{
     text-decoration: none;
     color: #777;
@@ -34,7 +28,7 @@ body{
   }
 
 footer{
-    position: absolute;
+    display: inline-block;
     bottom: 0em;
     width: 100%;
     height: 80px;
