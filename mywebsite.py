@@ -4,7 +4,7 @@ myflask = Flask(__name__)
 
 @myflask.route("/")
 def home():
-    return render_template("demo1.html")
+    return render_template("welcome.html")
 
 @myflask.route("/demo1")
 def demo1():
