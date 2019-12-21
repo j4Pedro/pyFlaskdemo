@@ -1,0 +1,219 @@
+body{
+    font-family: microsoft jhenghei;
+    margin: 0;
+    background-color: black;
+}
+
+header h1{
+    color: wheat;
+    font-family: webfont;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+}
+header p{
+    width: 100%;
+    
+}
+header p a{
+    text-decoration: none;
+    color: wheat;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+#banner{
+    clear: both;
+    background-image: url('images/banner1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+}
+#info1 #info1Left{
+    width: 100%;
+    float: none;
+    background-image: url('images/i1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+#info1 #info1Right,#info2 #info2Left,#info3 #info3Right,#info4 #info4Left,#info5 #info5Right{
+    width: 100%;
+    float: none;
+    height: 400px;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+#info1 #info1Right h3,#info2 #info2Left h3,#info3 #info3Right h3,#info4 #info4Left h3,#info5 #info5Right h3{
+    color: chocolate;
+}
+#info1 #info1Right p,#info2 #info2Left p,#info3 #info3Right p,#info4 #info4Left p,#info5 #info5Right p{
+    color: wheat;
+}
+#info2 #info2Right{
+    width: 100%;
+    float: none;
+    background-image: url('images/i2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+#info3 #info3Left{
+    width: 100%;
+    float: none;
+    background-image: url('images/i3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+#cf{
+   
+    clear: both;
+    background-image: url('images/banner1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+#info4 #info4Right{
+    width: 100%;
+    float: none;
+    background-image: url('images/i4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+#info5 #info5Left{
+    width: 100%;
+    float: none;
+    background-image: url('images/i5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+footer{
+    color: #666;
+    font-family: microsoft jhenghei;
+    text-align: center;
+}
+footer h2, footer p{  
+    text-align: center;
+}
+footer h2{
+    height: 80px;
+    line-height: 80px;
+    font-size: 32px;
+    border-bottom: 1px solid #555;
+    clear: both;
+    width: 80%;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+footer p{
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    border-top: 1px solid #555;
+    width: 80%;
+    margin: 0px auto;
+    letter-spacing: 1px;
+}
+footer span{
+    /* background-color: #BBB; */
+    display: inline;
+    margin: 0px 2.6%; /* 20/768=0.026 */
+    padding: 0 8.85%;/*16*4=64 200-64=136 136/2=68 68/768=0.0885*/
+    box-sizing: border-box;
+    vertical-align: top;
+    
+}
+@media screen and (min-width:481px) and (max-width:768px){
+    footer span{
+        /* background-color: #BBB; */
+        display: inline-block; 
+        width: 26%;/* 200/768=0.26 */
+        height: 150px;
+        margin: 0px 2.6%; /* 20/768=0.026 */
+        padding: 0 8.85%;/*16*4=64 200-64=136 136/2=68 68/768=0.0885*/
+        box-sizing: border-box;
+        vertical-align: top;
+        
+    }
+}
+@media screen and (min-width:769px){
+    header h1{
+        color: wheat;
+        font-family: webfont;
+        font-size: 40px;
+        width: 200px;
+        text-align: center;
+        float: left;
+        letter-spacing: 2px;
+    }
+    header p{
+        width: 400px;
+        float: right;
+        
+    }
+    header p a{
+        text-decoration: none;
+        color: wheat;
+        display: inline-block;
+        margin-top: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    #banner{
+        height: 650px;
+    }
+    
+    #info1 #info1Left{
+        width: 50%;
+        float: left;
+    }
+    #info1 #info1Right,#info2 #info2Left,#info3 #info3Right,#info4 #info4Left,#info5 #info5Right{
+        width: 50%;
+        float: left;
+    }
+    #info2 #info2Right{
+        width: 50%;
+        float: left;
+    }
+    #info3 #info3Left{
+        width: 50%;
+        float: left;
+    }
+    
+    #info4 #info4Right{
+        width: 50%;
+        float: left;
+    }
+    #info5 #info5Left{
+        width: 50%;
+        float: left;
+    }
+    footer h2{
+        width: 800px;
+    }
+    footer p{
+        width: 800px;
+    }
+    footer span{
+        display: inline-block;
+        width: 200px;
+        height: 150px;
+        margin: 0px 20px;
+        padding: 0 68px;/*16*4=64 200-64=136 136/2=68*/
+    }
+}

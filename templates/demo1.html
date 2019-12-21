@@ -4,17 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Demo1</title>
     
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <style>
-        @font-face {
-        font-family: webfont;
-        src: url('/static/fonts/KouzanSoushoOTF.otf');
-        <!--/* src:  url({{ url_for('static', filename='fonts/KouzanSoushoOTF.otf') }}); 放在style.css 中失敗*/-->
-    }
-    </style>
-
+    <title>Demo1</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='stydemo1.css') }}">
+    {% comment %} <link rel="stylesheet" href="/flask-heroku/static/stydemo1.css"> {% endcomment %}
+   
+    
 
 </head>
 <body>
@@ -71,11 +66,24 @@
         </div>
     </div>
     <footer>
-        <h2></h2>
-        <span></span>
-        <span></span>
-        <span></span>
-        <p></p>
+    
+        <h2>孤獨食堂</h2>
+        <span>
+            使用須知
+            常見問題
+            網站導航
+        </span>
+        <span>
+            隱私政策
+            聯繫我們
+            相關站點
+        </span>
+        <span>
+            Facebook
+            Instagram
+            Youtube
+        </span>
+        <p>&copy;2019 孤獨食堂</p>
     </footer>
 </body>
 </html>

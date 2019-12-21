@@ -19,7 +19,7 @@ body{
   
   header p a{
     text-decoration: none;
-    color: wheat;
+    color: #777;
     display: inline-block;
     margin-top: 20px;
     margin-right: 10px;
@@ -32,3 +32,11 @@ body{
   svg rect{
     fill: #FF6700;
   }
+
+footer{
+    position: absolute;
+    bottom: 0em;
+    width: 100%;
+    height: 80px;
+   
+}
