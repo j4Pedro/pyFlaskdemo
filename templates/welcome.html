@@ -19,18 +19,16 @@
 </head>
 <body>
     <header>
-        <h1>Welcome</h1>
-        <div id='tabs'>
-            <p>
-                <a onmouseover="mover(this);" onmouseout="mout(this)" href="">About</a>
-                <a onmouseover="mover(this);" onmouseout="mout(this)" href="{{ url_for('demo1') }}">Demo1(RWD/CSS)</a>
-                <a onmouseover="mover(this);" onmouseout="mout(this)" href="{{ url_for('demo2') }}">Demo2(Bootstrap)</a>
-                <a onmouseover="mover(this);" onmouseout="mout(this)" href="">Demo3</a>
-            </p>
-        </div>
-        
+        <h1>Welcome</h1>  
     </header>
-        
+
+        <div id='tabs'><a onmouseover="mover(this);" onmouseout="mout(this)" href="">About</a> </div>
+        <div id='tabs'><a onmouseover="mover(this);" onmouseout="mout(this)" href="{{ url_for('demo1') }}">Demo1(RWD/CSS)</a></div>
+        <div id='tabs'><a onmouseover="mover(this);" onmouseout="mout(this)" href="{{ url_for('demo2') }}">Demo2(Bootstrap)</a></div>
+        <div id='tabs'> <a onmouseover="mover(this);" onmouseout="mout(this)" href="">Demo3</a>  </div>
+            
+
+    
     <div class="loader" title="4">
         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="100px"
             width="60px" height="60px" viewBox="0 0 30 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
@@ -63,7 +61,6 @@
 
    
     <foot>
-        <p>werwer qwe qwert</p>
         <p>2019 demo</p>
         <p>wer  qwe qwe qwe</p>
     </foot>
