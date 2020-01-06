@@ -8,17 +8,27 @@
     <title>Document</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styWelcome.css') }}">
     <link rel="stylesheet" href="/flask-heroku/static/styWelcome.css">
-   
+    <script type="text/javascript">
+    function mover(element){
+        element.style.color = '#056';
+    }
+    function mout(element){
+        element.style.color='#777';
+    }
+    </script>
 </head>
 <body>
     <header>
         <h1>Welcome</h1>
-        <p>
-            <a href="">About</a>
-            <a href="{{ url_for('demo1') }}">Demo1</a>
-            <a href="">Demo2</a>
-            <a href="">Demo3</a>
-        </p>
+        <div id='tabs'>
+            <p>
+                <a onmouseover="mover(this);" onmouseout="mout(this)" href="">About</a>
+                <a onmouseover="mover(this);" onmouseout="mout(this)" href="{{ url_for('demo1') }}">Demo1(RWD/CSS)</a>
+                <a onmouseover="mover(this);" onmouseout="mout(this)" href="{{ url_for('demo2') }}">Demo2(Bootstrap)</a>
+                <a onmouseover="mover(this);" onmouseout="mout(this)" href="">Demo3</a>
+            </p>
+        </div>
+        
     </header>
         
     <div class="loader" title="4">
@@ -50,6 +60,8 @@
             </rect>
         </svg>
     </div>
+
+   
     <foot>
         <p>werwer qwe qwert</p>
         <p>2019 demo</p>

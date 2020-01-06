@@ -6,7 +6,7 @@ body{
 
 header h1{
     color: #777;
-    font-family: webfont;
+    font-family: './fonts/KouzanSoushoOTF.otf';
     font-size: 40px;
     width: 100%;
     text-align: center;
